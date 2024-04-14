@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    margin: 0px;
+    background-color: #264653;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    // overflow: hidden;
+}
+
+.Root{
+    overflow-y: hidden;
+}
+
+.Check{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .Buttons{
+        display: flex;
+        gap: 10px;
+    }
+}
+
+.Register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    img{
+        width: 100px;
+    }
+}
+
+.Marcar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+
+    .Box{
+        overflow-y: scroll;
+
+        .StaffContainer{
+            display: flex;
+            flex-direction: row;
+            background-color: #2a9d8f;
+            padding: 10px 20px;
+            align-items: center;
+            justify-content: space-between;
+            margin: 5px;
+            border-radius: 10px;
+            width: calc(90vw - 40px);
+    
+            .info{
+                display: flex;
+                flex-direction: column;
+    
+                h3{
+                    margin: 0px;
+                }
+            }
+        }
+
+    }
+}
+
+.Reporte{
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .reportContainer{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column-reverse;
+
+        h4{
+            background-color: #2a9d8f;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    }
+}

@@ -1,1 +1,1 @@
-# RegistroEntradasYsalidas
+Realizar una aplicacion MOVIL  de entrada y salida de empleado me debe dar un reporte general. 
